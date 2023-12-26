@@ -16,3 +16,11 @@ function show(){
     let x = document.getElementById("p2")
     x.style.visibility = "visible"
 }
+
+// let changeText = () => {
+//     let x = document.getElementById("p3")
+//     x.innerHTML = 'Ooooops!'
+// }   
+let changeText = (id) => id.innerHTML = 'Ooooops!'
+   
+    
