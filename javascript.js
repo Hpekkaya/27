@@ -127,3 +127,5 @@ test("value").then (resolve => console.log(resolve), reject=> console.log(reject
 // document.getElementById("demo2").style.backgroundColor="yellow"
 // console.log(document.getElementById("demo2"))
 
+
+
