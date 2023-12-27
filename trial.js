@@ -1,19 +1,26 @@
-upperCase = () => {
-    const x = document.getElementById("fname");
-    x.value = x.value.toUpperCase();
-}
 
-mOver = (obj) => {
-    obj.innerHTML = "Thanks"
-    obj.style.backgroundColor = "blue"
-    obj.style.color = "white"
-    
-}
-mOut = (obj) => {
-    obj.innerHTML = "Mouse Over Me" 
-    obj.style.backgroundColor = "red"
-}
+document.getElementById("myP1").addEventListener("click",
+function(){
+    alert("myP1")
+},false
+)
+document.getElementById("myDiv1").addEventListener(
+    "click",
+    function(){
+        alert("myDiv1")
+    },false
+)
+document.getElementById("myP2").addEventListener("click",
+function(){
+    alert("myP2")
+},true
+)
+document.getElementById("myDiv2").addEventListener(
+    "click",
+    function(){
+        alert("myDiv2")
+    },true
+)
 
-document.getElementById("myBtn").addEventListener("click", myAlert = () => alert("Hello World"))
 
 

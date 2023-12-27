@@ -152,5 +152,42 @@ test("value").then (resolve => console.log(resolve), reject=> console.log(reject
 // }   
 // let changeText = (id) => id.innerHTML = 'Ooooops!'
 
+// upperCase = () => {
+//     const x = document.getElementById("fname");
+//     x.value = x.value.toUpperCase();
+// }
+
+// mOver = (obj) => {
+//     obj.innerHTML = "Thanks"
+//     obj.style.backgroundColor = "blue"
+//     obj.style.color = "white"
+    
+// }
+// mOut = (obj) => {
+//     obj.innerHTML = "Mouse Over Me" 
+//     obj.style.backgroundColor = "red"
+// }
+
+// document.getElementById("myBtn").addEventListener("click", myAlert = () => alert("Hello World"))
+
+// addEventListener
+// let x = document.getElementById("myBtn")
+// x.addEventListener("mouseover", mOverFunction)
+// x.addEventListener("click", clickFunction)
+// x.addEventListener("mouseout", mOutFunction)
+
+// function mOverFunction(){
+//     let x = document.getElementById("demo").innerHTML += "Moused Over <br>"
+   
+// }
+
+// function clickFunction() {
+//     let x = document.getElementById("demo").innerHTML += "Clicked <br>"
+// }
+
+// function mOutFunction () {
+//     let x = document.getElementById("demo").innerHTML += "Moused Out <br>"
+// }
+
 
 

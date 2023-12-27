@@ -6,7 +6,6 @@
         <meta http-equiv="X-UA-Compatible">
         <title>Lesson 27</title>
 
-
     </head>
     <body>
         <!-- <p id="demo">Contents</p>
@@ -40,14 +39,29 @@
         <input type="text" id="fname" onchange="upperCase()"> -->
 
         <!-- On mouse over -->
-        <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color: yellow; width:240px;height: 25px;padding: 20px; text-align: center; vertical-align: middle;">Mouse Over me</div>
-        <h1></h1>
+        <!-- <div onmouseover="mOver(this)" onmouseout="mOut(this)" style="background-color: yellow; width:240px;height: 25px;padding: 20px; text-align: center; vertical-align: middle;">Mouse Over me</div> -->
+
+        <!-- <h1></h1>
         <button id="myBtn">Try it</button>
+        <p id="demo"></p> -->
 
+        <div id="myDiv1" style="background-color:yellow;padding: 50px">
+            <h2>Bubbling</h2>
 
+            <p id="myP1"
+                style="background-color:white;font-size:20px;border:1px solid;padding:20px;">Click
+                me</p>
 
+        </div><br>
 
+        <div id="myDiv2" style="background-color:yellow;padding:50px;">
+            <h2>Capturing</h2>
 
+            <p id="myP2"
+                style="background-color:white;font-size:20px;border:1px solid;padding:20px;">Click
+                me</p>
+
+        </div>
 
         <!-- <script src="javascript.js"></script> -->
         <script src="trial.js" </script>
